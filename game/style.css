@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.caja-titulo {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.marcador {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.caja-pequena {
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: bold;
+}
+
+#result {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.elecciones {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.imagenes img {
+  width: 100px;
+}
+
+.cajasMain {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.4); 
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  padding: 30px 50px;
+  border-radius: 10px;
+  text-align: center;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.modal h2 {
+  margin-bottom: 10px;
+}

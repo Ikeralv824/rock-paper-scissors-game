@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini-Juego Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="caja-titulo">Piedra / Papel / Tijera</div>
+
+      <section>
+        <div class="marcador">
+          <p id="player-score" class="caja-pequena">Jugador: 0</p>
+          <p id="computer-score" class="caja-pequena">CPU: 0</p>
+        </div>
+      </section>
+    </header>
+
+    <div id="overlay" class="overlay">
+      <div class="modal">
+        <h2 id="texto-resultado"></h2>
+        <p>Pulsa para continuar...</p>
+      </div>
+    </div>
+
+    <section class="cajasMain">
+      <div class="caja-pequena">
+        <p>Jugador</p>
+        <div class="imagenes">
+          <img id="img-jugador" src="img/signo.png" alt="Elección jugador" />
+        </div>
+      </div>
+
+      <div class="caja-pequena">
+        <p>CPU</p>
+        <div class="imagenes">
+          <img id="img-cpu" src="img/signo.png" alt="Elección CPU" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="elecciones">
+        <button onclick="playGame('Piedra')" id="btnPiedra">Piedra</button>
+        <button onclick="playGame('Papel')" id="btnPapel">Papel</button>
+        <button onclick="playGame('Tijera')" id="btnTijera">Tijera</button>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,2 +1,14 @@
-# rock-paper-scissors-game
-This repository contains the famous Rock, Paper, Scissors game created with HTML, CSS and JavaScript.
+# Rock Paper Scissors 🎮
+
+A simple Rock, Paper, Scissors game built with HTML, CSS and JavaScript.
+
+## Features
+- Player vs Computer
+- Random computer choices
+- Interactive buttons
+- Score system
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
